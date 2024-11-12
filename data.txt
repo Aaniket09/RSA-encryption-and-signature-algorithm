@@ -1,0 +1,43 @@
+# IDs
+MY_ID = 40266485
+PARTNER_ID = 40259956
+
+# my data
+p = 62189
+q = 52859
+N = 3287248351
+phi_N = 3287133304
+e = 3817
+d = 2251992033
+
+# my partner data
+PARTNER_N = 3346256237
+PARTNER_e = 32117
+
+# encryption
+MY_MESSAGE = "Aim for the impossible"
+MY_MESSAGE_chunks = ["Aim", " fo", "r t", "he ", "imp", "oss", "ibl", "e"]
+MY_CIPHERTEXT = [30966275, 1791799262, 1254862435, 1921378134, 2989293761, 2712515199, 1120956057, 2170497989]
+
+# decryption
+PARTNER_CIPHERTEXT = [3154750071, 2795536361, 2173849509, 565069380, 943468783, 1457791096, 1636785221, 446176987, 219107125]
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ["RSA", " by", " Ri", "ves", "tSh", "ami", "rAd", "lem", "an"]
+PARTNER_MESSAGE_AFTER_DECRYPT = "RSA by RivestShamirAdleman"
+
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Aniket Agarwal"
+MY_MESSAGE_TO_BE_SIGNED_chunks = ["Ani", "ket", " Ag", "arw", "al"]
+MY_SIGNATURE = [2583198294, 1844306159, 69547231, 623892297, 248110039]
+
+# verfiy the signature
+PARTNER_SIGNED_MESSAGE = "Anab Abdi"
+PARTNER_SIGNATURE = [1943182935, 2888579549, 2241914581]
+#IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
+
+
+
+COMMENTS = '''
+# If you have a short comment, write it here
+'''
